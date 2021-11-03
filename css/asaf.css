@@ -54,7 +54,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.icon-cat {
-  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
