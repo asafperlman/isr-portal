@@ -21,6 +21,10 @@ strong {
   font-weight: 600;
 }
 
+.section {
+  margin-bottom: 80px;
+}
+
 .logo {
   width: 120px;
 }
@@ -72,6 +76,7 @@ strong {
 .hero {
   height: 200px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
