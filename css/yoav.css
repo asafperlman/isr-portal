@@ -51,7 +51,7 @@ strong {
   color: #444;
   opacity: 0.7;
 }
-.serach-bar-form {
+.search-bar-form {
   width: 300px;
   height: 28px;
   border-radius: 5px;
@@ -60,20 +60,20 @@ strong {
   align-items: center;
   border: solid;
 }
-.serach-bar {
+.search-bar {
   all: unset;
   color: #444;
   padding: 6px 10px;
 }
 
-.main-section {
+.hero-section {
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.reason-icon {
+.icon {
   width: 32px;
   height: 32px;
   margin-bottom: 12px;
@@ -101,4 +101,8 @@ strong {
 
 .reasons-container:first-child {
   margin-right: 32px;
+}
+
+.categories-list-container {
+  display: flex;
 }
