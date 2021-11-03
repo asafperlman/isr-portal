@@ -80,9 +80,25 @@ strong {
 }
 
 .reason-box-title {
-  font-size: 18px;
+  margin-bottom: 16px;
+  font-size: 20px;
 }
 
 .reason-description {
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.reasons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reason-box {
+  margin-left: 32px;
+}
+
+.reasons-container:first-child {
+  margin-right: 32px;
 }
