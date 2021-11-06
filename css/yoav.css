@@ -131,3 +131,20 @@ strong {
   height: 62px;
   width: 62px;
 }
+
+.events-container {
+  display: grid;
+}
+
+.event-container {
+  display: grid;
+}
+
+.event-date {
+}
+
+.event-description {
+}
+
+.event-price {
+}
