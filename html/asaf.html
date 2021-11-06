@@ -2,12 +2,16 @@
 <html dir="rtl" lang="he">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" type="text/css" href="../css/yoav.css" />
+    <script type="text/javascript" src="../java/asaf.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/asaf.css" />
+    
   </head>
   <body>
     <header class="header">
@@ -194,21 +198,28 @@
       </div>
     </section>
     <section>
-      <form>
-        <input type="checkbox" class="football" id="football" value="football" />
-        <label for="football"> פוטבול</label><br />
-        <input type="checkbox" class="cat-item" id="basketball" value="basketball" />
-        <label for="basketball"> כדורסל</label><br />
-        <input type="checkbox" class="cat-item" id="socer" value="socer" />
-        <label for="socer"> כדורגל</label><br /><br />
-        <input type="checkbox" class="cat-item" id="music" value="music" />
-        <label for="music"> מוזיקה</label><br /><br />
-        <input type="checkbox" class="cat-item" id="stant-up" value="stant-up" />
-        <label for="stant-up"> סטנד-אפ</label><br /><br />
-        <input type="checkbox" class="cat-item" id="piano" value="piano" />
-        <label for="piano"> פסנתר</label><br /><br />
-      </form>
-      
+      <h3>בחר את המחיר שלך:</h3>
+      <input type="range" value="24" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+      <output class="price">24</output>
+
+      <div>
+        <label class="container">כדורגל
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">כדורסל
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">סטנד-אפ
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">מוזיקה
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+      </div>
     </section>
   </body>
 </html>
