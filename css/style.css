@@ -5,23 +5,6 @@ SPACING SYSTEM (px)
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
-html {
-  font-size: 62.5%;
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Assistant", sans-serif;
-}
-body {
-  font-family: "Assistant", sans-serif;
-  color: #343a40;
-}
-
-strong {
-  font-weight: 600;
-}
 
 .section {
   margin-bottom: 80px;
