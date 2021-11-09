@@ -34,24 +34,28 @@ FONT SIZE SYSTEM (px)
 /* hero */
 
 .hero-main-text {
-  font-size: 40px;
+  font-size: 5.2rem;
   color: rgb(112, 70, 70);
 }
+
+.hero-after-main-text {
+  font-size: 2rem;
+}
+
 ::placeholder {
-  color: #444;
+  color: #777;
   opacity: 0.7;
 }
 .search-bar-form {
   margin-top: 10rem;
-  width: 50rem;
+  width: 60rem;
   height: 6rem;
   border-radius: 13px;
   display: flex;
-  border: solid;
+  border: #666 solid 2px;
 }
 .search-bar {
   all: unset;
-  color: #444;
   padding: 8px 10px;
   font-size: 1.8rem;
 }
