@@ -35,7 +35,12 @@ FONT SIZE SYSTEM (px)
   font-size: 1.8rem;
   transition: all 0.3s;
 }
+/* hero */
 
+.hero-main-text {
+  font-size: 40px;
+  color: rgb(112, 70, 70);
+}
 ::placeholder {
   color: #444;
   opacity: 0.7;
@@ -44,7 +49,7 @@ FONT SIZE SYSTEM (px)
   margin-top: 10rem;
   width: 50rem;
   height: 6rem;
-  border-radius: 100px;
+  border-radius: 13px;
   display: flex;
   border: solid;
 }
