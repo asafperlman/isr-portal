@@ -13,7 +13,7 @@ FONT SIZE SYSTEM (px)
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 9.6rem;
+  height: 8rem;
   padding: 0 5rem;
 }
 .main-nav-list {
@@ -49,8 +49,7 @@ FONT SIZE SYSTEM (px)
 .search-bar-form {
   display: flex;
   justify-content: space-between;
-  margin-top: 10rem;
-
+  margin-top: 6rem;
   border-radius: 13px;
   display: flex;
   border: #666 solid 2px;
@@ -71,7 +70,8 @@ FONT SIZE SYSTEM (px)
 }
 .section-hero {
   background-color: #ffe6e6;
-  height: 50rem;
+  /* המסך הקטן שלי זה 48 רם בול */
+  height: 100vh;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -81,51 +81,46 @@ FONT SIZE SYSTEM (px)
   justify-content: center;
   align-items: center;
 }
-
+/* catagory icon */
 .icon {
   width: 2.4rem;
   height: 2.4rem;
 }
-
-.section-why-us {
-  margin: 1.6rem 0 8.4rem 0;
-  padding: 1.6rem 3.2rem 4.4rem 3.2rem;
-  border-bottom: black solid 1px;
+.cat-icon {
+  color: inherit;
+  font-size: 18px;
 }
 
-.reason-box-title {
-  margin-bottom: 0.8rem;
-  font-size: 1.8rem;
-}
-
-.reason-description {
-  font-size: 1.4rem;
-  line-height: 1.05;
-}
-
-.reasons-container {
+.why-us-box {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4.8rem;
+  width: 1000px;
+  height: 80px;
+  margin-top: 20px;
 }
-
-.reason-box {
-  margin-left: 3.2px;
+.why-us {
+  display: flex;
 }
-
-.reasons-container:first-child {
-  margin-right: 3.2rem;
+.why-us_text h3 {
+  margin-bottom: 5px;
+  font-size: 14px;
 }
-
+.why-us_text p {
+  font-size: 11px;
+}
+.why-us_icon {
+  font-size: 16px;
+  color: #e67e22;
+}
+.why-us_text {
+  margin-right: 10px;
+}
 .categories-list-container {
   width: 90rem;
   list-style: none;
   display: flex;
   align-items: center;
-  margin-top: 12rem;
+  margin-top: 8rem;
   justify-content: space-between;
-  margin-bottom: 8;
 }
 
 .category-item button {
@@ -267,4 +262,5 @@ FONT SIZE SYSTEM (px)
 }
 .tickets-section-div {
   display: flex;
+  background-color: #ffe6e6;
 }
