@@ -6,10 +6,6 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 
-.section {
-  margin-bottom: 80px;
-}
-
 .logo {
   width: 12rem;
 }
@@ -24,7 +20,7 @@ FONT SIZE SYSTEM (px)
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 2.4rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -56,9 +52,10 @@ FONT SIZE SYSTEM (px)
 }
 .section-hero {
   background-color: #ffe6e6;
-  height: 50rem;
+  height: 90rem;
   padding: 4.8rem 0 9.6rem 0;
 }
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -67,24 +64,31 @@ FONT SIZE SYSTEM (px)
 }
 
 .icon {
-  width: 32px;
-  height: 32px;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.section-why-us {
+  margin: 1.6rem 0 8.4rem 0;
+  padding: 1.6rem 3.2rem 4.4rem 3.2rem;
+  border-bottom: black solid 1px;
 }
 
 .reason-box-title {
-  margin-bottom: 16px;
-  font-size: 20px;
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
 }
 
 .reason-description {
-  font-size: 1.8rem;
-  line-height: 1.7;
+  font-size: 1.4rem;
+  line-height: 1.05;
 }
 
 .reasons-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 4.8rem;
 }
 
 .reason-box {
@@ -217,6 +221,7 @@ FONT SIZE SYSTEM (px)
 .ticket-date {
   text-align: center;
 }
+
 /* ticket-date text */
 .ticket-e-date {
   font-size: 16px;
