@@ -262,10 +262,12 @@ FONT SIZE SYSTEM (px)
 .ticket-price {
   text-align: center;
   font-size: 23px;
+  font-weight: 600;
   color: #fff;
-  background-color: #242424;
+  background-color: #151515;
+  border-radius: 13px;
 
-  padding: 1.6rem 2.4rem;
+  padding: 1.2rem 0;
 }
 .ticket-price-link {
   text-decoration: none;
