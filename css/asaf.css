@@ -67,6 +67,7 @@ FONT SIZE SYSTEM (px)
   border: none;
   font-size: 15px;
   margin-left: 30px;
+  cursor: pointer;
 }
 .section-hero {
   background-color: #ffe6e6;
@@ -300,8 +301,11 @@ FONT SIZE SYSTEM (px)
 
   padding: 1.2rem 0;
 }
-.ticket-price-link {
+.ticket-price-btn {
   text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 .tickets-section-div {
   display: flex;
