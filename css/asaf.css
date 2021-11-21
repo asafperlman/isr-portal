@@ -45,7 +45,10 @@ FONT SIZE SYSTEM (px)
   cursor: pointer;
 }
 .section-hero {
-  background-color: #ffe6e6;
+  background-color: peachpuff;
+  /* background-image: url("../football-img.jpg");
+  background-size: cover;
+  background-position: center; */
   /* המסך הקטן שלי זה 48 רם בול */
   height: 48rem;
   padding: 4.8rem 0 9.6rem 0;
