@@ -57,59 +57,8 @@ FONT SIZE SYSTEM (px)
   justify-content: center;
   align-items: center;
 }
-/* why us box */
-.icon {
-  width: 2.4rem;
-  height: 2.4rem;
-}
-.cat-icon {
-  color: inherit;
-  font-size: 18px;
-}
 
-.why-us-box {
-  display: flex;
-  width: 920px;
-  height: 100px;
-  margin-top: 20px;
-  justify-content: space-between;
-}
-.why-us {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 240px;
-  height: 60px;
-}
-.why-us:first-child {
-  margin-right: 90px;
-}
-.why-us-verticle:last-child {
-  margin-right: 30px;
-}
-.why-us-verticle {
-  width: 1px;
-  height: 50px;
-  background-color: #cdcdcd;
-}
-.why-us_text h3 {
-  margin-bottom: 5px;
-  font-size: 14px;
-}
-.why-us_text p {
-  font-size: 10.7px;
-}
-.why-us_icon {
-  color: orange;
-  font-size: 28px;
-  margin-left: 5px;
-  margin-right: -20px;
-}
-.why-us_text {
-  margin-right: 10px;
-}
-
+/* circle catagory */
 /* list container */
 .categories-list-container {
   width: 90rem;
@@ -142,174 +91,86 @@ FONT SIZE SYSTEM (px)
   flex-direction: column;
   justify-content: space-between;
 }
-/* copy of w3school */
 
-.sort-cat {
+/* why us box */
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.cat-icon {
+  color: inherit;
+  font-size: 18px;
+}
+
+.why-us-box {
+  display: flex;
+  width: 920px;
+  height: 100px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.why-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 250px;
+  height: 60px;
+}
+.why-us:first-child {
+  margin-right: 90px;
+}
+.why-us-verticle:last-child {
+  margin-right: 30px;
+}
+.why-us-verticle {
+  width: 1px;
+  height: 50px;
+  background-color: #cdcdcd;
+}
+.why-us_text h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.why-us_text p {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.why-us_icon {
+  color: orange;
+  font-size: 34px;
+  margin-left: 5px;
+  margin-right: -20px;
+}
+.why-us_text {
   margin-right: 10px;
 }
 
-.filter-section p {
-  font-size: 1.6rem;
-  color: #333;
+/* promotion table */
 
-  margin-bottom: 1.6rem;
+.show-title {
+  font-size: 30px;
+  margin-bottom: 50px;
 }
-
-.filter-heading {
-  font-size: 2.4rem;
+.reco-show {
+  width: 140px;
+  border: 1px solid #777;
+  margin-bottom: 50px;
 }
-/* Round range slider */
-.price-range-slider {
-  margin-bottom: 3.2rem;
+.show-cont-img {
 }
-
-.price {
-  font-size: 2.4rem;
-  font-weight: 600;
-
-  margin-right: 0.8rem;
+.show-photo {
+  width: 100%;
 }
-
-/* The container */
-.container {
-  display: block;
-  position: relative;
-  padding-right: 30px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 14px;
-  user-select: none;
-}
-
-/* Hide the browser's default checkbox */
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/* Create a custom checkbox */
-.checkmark {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #eee;
-  border: 1px solid #ccc;
-}
-
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #2196f3;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* Style the checkmark/indicator */
-.container .checkmark:after {
-  right: 5px;
-  top: 3px;
-  width: 3px;
-  height: 7px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-/* end */
-
-/* tickets section */
-
-.tickets-table {
-  margin: 4.8rem 8rem;
-}
-
-.ticket-row {
-  width: 600px;
-  height: 6.4rem;
-
-  padding: 0.8rem;
-
-  border-bottom: 0.5px solid #ccc;
-
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-gap: 10px;
+.show-cont-info {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-
-.ticket-row:hover {
-  border-radius: 13px;
-  box-shadow: 0 0.2rem 0.8rem rgba(63, 24, 24, 0.175);
-  transition: 00.05s;
-  cursor: pointer;
+.show-name {
+  font-size: 14px;
+  margin-bottom: 4px;
 }
-
-.ticket-date {
-  text-align: center;
-}
-
-/* ticket-date text */
-.ticket-e-date {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
-  color: #333;
-}
-.ticket-time {
-  font-size: 16px;
-  color: #444;
-}
-
-/* ticket-deatils text */
-.ticket-name {
-  font-size: 20px;
-  margin-bottom: 8px;
-}
-.ticket-place {
-  font-size: 16px;
-}
-.ticket-price-btn-box {
-  display: flex;
-  height: 36px;
-  width: 124px;
-  background-color: #151515;
-  justify-content: center;
-  border-radius: 6px;
-}
-.ticket-price-btn {
-  text-decoration: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-.ticket-price {
-  font-size: 15px;
-  font-weight: 600;
-  padding: 0 16px;
-
-  color: #fff;
-}
-.tickets-section-div {
-  display: flex;
+.show-cont-t_p {
+  font-size: 11px;
 }
