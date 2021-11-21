@@ -153,7 +153,7 @@ FONT SIZE SYSTEM (px)
 
 .show-title {
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .reco-shows {
   width: 900px;
@@ -163,11 +163,14 @@ FONT SIZE SYSTEM (px)
 }
 
 .reco-show {
-  width: 140px;
+  width: 320px;
   border: 1px solid #777;
   margin-bottom: 50px;
   margin-right: 30px;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .show-cont-img {
   display: flex;
@@ -175,12 +178,13 @@ FONT SIZE SYSTEM (px)
 }
 .show-photo {
   width: 100%;
+  object-fit: inherit;
 }
 .show-cont-info {
   display: flex;
   flex-direction: column;
 
-  padding: 15px;
+  padding: 20px;
 }
 .show-name {
   font-size: 18px;
@@ -189,7 +193,27 @@ FONT SIZE SYSTEM (px)
 .show-cont-t_p {
   font-size: 12px;
 }
+.pro-buy-btn-box {
+  height: 36px;
+}
 .pro-buy-btn {
   width: 100%;
-  height: 20px;
+  height: 100%;
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.pro-buy-btn-text {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 12px;
+}
+.pro-buy-btn-icon {
+  background: none;
+  font-size: 18px;
+  color: white;
+  margin-left: 16px;
 }
