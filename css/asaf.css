@@ -248,3 +248,54 @@ FONT SIZE SYSTEM (px)
   justify-content: center;
   gap: 20px;
 }
+
+/* cat-list */
+.reco-cat {
+  width: 1000px;
+  height: 1200px;
+}
+.cat-box {
+  width: 210px;
+  height: 150px;
+
+  border-radius: 15px;
+  position: relative;
+}
+.basketball {
+  background: url("https://seatgeek.com/images/performers-landscape/generic-nba-basketball-b5070b/677206/400x275.jpg")
+      center center / cover,
+    rgb(68, 68, 68);
+}
+.football {
+  background: url("https://seatgeek.com/images/performers-landscape/generic-mls-soccer-8c880f/677195/400x275.jpg")
+      center center / cover,
+    rgb(68, 68, 68);
+}
+.stend-up {
+  background: url("https://seatgeek.com/images/performers-landscape/generic-comedy-e542e5/677157/400x275.jpg")
+      center center / cover,
+    rgb(68, 68, 68);
+}
+.music {
+  background: url("https://seatgeek.com/images/performers-landscape/generic-concerts-2ee11f/677165/400x275.jpg")
+      center center / cover,
+    rgb(68, 68, 68);
+}
+.cat-box-text {
+  position: absolute;
+  font-size: 16px;
+  color: #fdeaea;
+  right: 16px;
+  bottom: 15px;
+  font-weight: 600;
+}
+.cat-list-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cat-list {
+  list-style: none;
+  cursor: pointer;
+}
