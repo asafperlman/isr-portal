@@ -1,0 +1,118 @@
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 0;
+}
+.main-text-table {
+  margin-right: 40px;
+  line-height: 1.2;
+}
+.main-text {
+  font-size: 40px;
+}
+.second-text {
+  font-size: 28px;
+  color: #ccc;
+}
+.text-tickets-table {
+  position: relative;
+}
+/* tickets table */
+.tickets-table {
+  margin: 20px 10px;
+}
+
+.ticket-row {
+  width: 550px;
+  height: 6.4rem;
+
+  padding: 0.8rem;
+
+  border-bottom: 0.5px solid #ccc;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.ticket-row:hover {
+  border-radius: 13px;
+  box-shadow: 0 0.2rem 0.8rem rgba(63, 24, 24, 0.175);
+  transition: 00.05s;
+  cursor: pointer;
+}
+
+.ticket-date {
+  text-align: center;
+}
+
+/* ticket-date text */
+.ticket-e-date {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #333;
+}
+.ticket-time {
+  font-size: 14px;
+  color: #444;
+}
+
+/* ticket-deatils text */
+.ticket-name {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+.ticket-place {
+  font-size: 14px;
+}
+.ticket-price-btn-box {
+  display: flex;
+  height: 36px;
+  width: 124px;
+  background-color: #151515;
+  justify-content: center;
+  border-radius: 6px;
+}
+.ticket-price-btn {
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.ticket-price {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 16px;
+
+  color: #fff;
+}
+.tickets-section-div {
+  display: flex;
+}
+
+/* img proparty */
+
+.show-img-photo {
+  width: 100%;
+}
+/* button */
+.date-btn-box {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+.date-btn {
+  background: none;
+  border: 1.2px solid rgb(24, 24, 24);
+  border-radius: 34px;
+  padding: 5px 16px;
+  cursor: pointer;
+  box-shadow: rgb(24 24 24) 0px 0px 0px 0.0625rem;
+}
+.date-btn-text {
+  font-size: 14px;
+  letter-spacing: -0.2px;
+  font-weight: 600;
+}
