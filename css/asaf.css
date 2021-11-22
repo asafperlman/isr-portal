@@ -11,10 +11,10 @@ FONT SIZE SYSTEM (px)
 .hero-main-text {
   font-size: 5.2rem;
   color: rgb(112, 70, 70);
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 .hero-main-second-text {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 .hero-after-main-text {
   font-size: 2rem;
@@ -34,7 +34,7 @@ FONT SIZE SYSTEM (px)
 }
 .search-bar {
   all: unset;
-  padding: 8px 10px;
+  padding: 0.8rem 1rem;
   font-size: 1.8rem;
   width: 60rem;
   height: 4rem;
@@ -43,8 +43,8 @@ FONT SIZE SYSTEM (px)
 .search-btn {
   background: none;
   border: none;
-  font-size: 15px;
-  margin-left: 30px;
+  font-size: 1.5rem;
+  margin-left: 3rem;
   cursor: pointer;
 }
 .section-hero {
@@ -53,7 +53,7 @@ FONT SIZE SYSTEM (px)
   background-size: cover;
   background-position: center; */
   /* המסך הקטן שלי זה 48 רם בול */
-  height: 48rem;
+  max-height: 48rem;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -67,7 +67,7 @@ FONT SIZE SYSTEM (px)
 /* circle catagory */
 /* list container */
 .categories-list-container {
-  width: 90rem;
+  max-width: 90rem;
   list-style: none;
   display: flex;
   align-items: center;
@@ -80,8 +80,8 @@ FONT SIZE SYSTEM (px)
   border-radius: 50%;
   background-color: #fdeaea;
   color: #e67e22;
-  height: 62px;
-  width: 62px;
+  max-height: 6.2rem;
+  max-width: 6.2rem;
 }
 
 .section-container {
@@ -91,8 +91,8 @@ FONT SIZE SYSTEM (px)
 }
 
 .filter-section {
-  height: 280px;
-  width: 180px;
+  max-height: 28rem;
+  max-width: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -100,8 +100,8 @@ FONT SIZE SYSTEM (px)
 
 /* why us box */
 .icon {
-  width: 2.4rem;
-  height: 2.4rem;
+  max-width: 2.4rem;
+  max-height: 2.4rem;
 }
 .cat-icon {
   color: inherit;
@@ -110,9 +110,9 @@ FONT SIZE SYSTEM (px)
 
 .why-us-box {
   display: flex;
-  width: 920px;
-  height: 100px;
-  margin-top: 20px;
+  max-width: 80%;
+  max-height: 10rem;
+  margin-top: 2rem;
   justify-content: space-between;
 }
 .why-us {
@@ -120,36 +120,36 @@ FONT SIZE SYSTEM (px)
   justify-content: center;
   align-items: center;
 
-  width: 250px;
-  height: 60px;
+  max-width: 30%;
+  max-height: 6rem;
 }
 .why-us:first-child {
-  margin-right: 90px;
+  margin-right: 9rem;
 }
 .why-us-verticle:last-child {
-  margin-right: 30px;
+  margin-right: 3rem;
 }
 .why-us-verticle {
   width: 1px;
-  height: 50px;
+  max-height: 5rem;
   background-color: #cdcdcd;
 }
 .why-us_text h3 {
-  margin-bottom: 5px;
-  font-size: 16px;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
 }
 .why-us_text p {
-  font-size: 12px;
+  font-size: 1.2rem;
   line-height: 1.2;
 }
 .why-us_icon {
   color: orange;
-  font-size: 34px;
-  margin-left: 5px;
-  margin-right: -20px;
+  font-size: 3.4rem;
+  margin-left: 0.5rem;
+  margin-right: -2rem;
 }
 .why-us_text {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 /* promotion table */
@@ -158,37 +158,37 @@ FONT SIZE SYSTEM (px)
 .prom-sell-header {
   display: flex;
   justify-content: space-between;
-  padding: 50px 60px;
+  padding: 5rem 6rem;
 }
 .slider-btn {
   background: none;
   border: 1.2px solid black;
-  border-radius: 14px;
-  padding: 8px 20px;
+  border-radius: 1.4rem;
+  padding: 0.8rem 2rem;
 }
 .slider-btn-text {
-  font-size: 15px;
+  font-size: 1.5rem;
   color: rgb(192, 93, 1);
   font-weight: 600;
-  padding: 0 8px;
+  padding: 0 0.8rem;
 }
 .slider-btn-icon {
   color: #663000;
 }
 .show-title {
-  font-size: 30px;
+  font-size: 3rem;
 }
 .reco-shows {
-  width: 900px;
+  max-width: 90rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .reco-show {
-  width: 320px;
+  max-width: 33.3%;
   border: 1px solid #777;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -196,31 +196,31 @@ FONT SIZE SYSTEM (px)
 }
 .show-cont-img {
   display: flex;
-  height: 140px;
+  max-height: 14rem;
 }
 .show-photo {
-  width: 100%;
+  max-width: 100%;
   object-fit: inherit;
 }
 .show-cont-info {
   display: flex;
   flex-direction: column;
 
-  padding: 20px;
+  padding: 2rem;
 }
 .show-name {
-  font-size: 18px;
-  margin-bottom: 4px;
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
 }
 .show-cont-t_p {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 .pro-buy-btn-box {
-  height: 36px;
+  max-height: 3.6rem;
 }
 .pro-buy-btn {
   width: 100%;
-  height: 100%;
+  max-height: 100%;
   background-color: #111;
   display: flex;
   justify-content: space-between;
@@ -230,14 +230,14 @@ FONT SIZE SYSTEM (px)
 .pro-buy-btn-text {
   color: #fff;
   font-weight: 600;
-  font-size: 14px;
-  margin-right: 12px;
+  font-size: 1.4rem;
+  margin-right: 1.2rem;
 }
 .pro-buy-btn-icon {
   background: none;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: white;
-  margin-left: 16px;
+  margin-left: 1.6rem;
 }
 .prom-sell-box {
   display: flex;
@@ -246,19 +246,19 @@ FONT SIZE SYSTEM (px)
 .reco-shows {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 2rem;
 }
 
 /* cat-list */
 .reco-cat {
-  width: 1000px;
-  height: 1200px;
+  max-width: 100%;
+  max-height: 120rem;
 }
 .cat-box {
-  width: 210px;
-  height: 150px;
+  width: 21rem;
+  height: 15rem;
 
-  border-radius: 15px;
+  border-radius: 1.5rem;
   position: relative;
 }
 .basketball {
@@ -283,17 +283,17 @@ FONT SIZE SYSTEM (px)
 }
 .cat-box-text {
   position: absolute;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #fdeaea;
-  right: 16px;
-  bottom: 15px;
+  right: 1.6rem;
+  bottom: 1.5rem;
   font-weight: 600;
 }
 .cat-list-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 2rem;
 }
 .cat-list {
   list-style: none;
