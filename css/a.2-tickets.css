@@ -4,7 +4,6 @@
   margin: 20px 0;
 }
 .main-text-table {
-  margin-right: 40px;
   line-height: 1.2;
 }
 .main-text {
@@ -14,8 +13,14 @@
   font-size: 28px;
   color: #ccc;
 }
-.text-tickets-table {
-  position: relative;
+
+.text-tickets-table-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.date-btn-box {
+  margin-top: 12px;
 }
 /* tickets table */
 .tickets-table {
@@ -98,11 +103,7 @@
   width: 100%;
 }
 /* button */
-.date-btn-box {
-  position: absolute;
-  left: 50px;
-  top: 10px;
-}
+
 .date-btn {
   background: none;
   border: 1.2px solid rgb(24, 24, 24);
