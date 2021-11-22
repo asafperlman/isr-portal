@@ -154,10 +154,29 @@ FONT SIZE SYSTEM (px)
 
 /* promotion table */
 
+/* slider button */
+.prom-sell-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px;
+}
+.slider-btn {
+  background: none;
+  border: 1.2px solid black;
+  border-radius: 14px;
+  padding: 8px 20px;
+}
+.slider-btn-text {
+  font-size: 15px;
+  color: rgb(192, 93, 1);
+  font-weight: 600;
+  padding: 0 8px;
+}
+.slider-btn-icon {
+  color: #663000;
+}
 .show-title {
   font-size: 30px;
-  margin-bottom: 60px;
-  margin-right: 55px;
 }
 .reco-shows {
   width: 900px;
