@@ -114,6 +114,7 @@ FONT SIZE SYSTEM (px)
   max-height: 10rem;
   margin-top: 2rem;
   justify-content: space-between;
+  align-items: center;
 }
 .why-us {
   display: flex;
@@ -151,7 +152,6 @@ FONT SIZE SYSTEM (px)
 .why-us_text {
   margin-right: 1rem;
 }
-
 /* promotion table */
 
 /* slider button */
@@ -196,11 +196,11 @@ FONT SIZE SYSTEM (px)
 }
 .show-cont-img {
   display: flex;
-  max-height: 14rem;
+  height: 140px;
+  width: auto;
 }
 .show-photo {
   max-width: 100%;
-  object-fit: inherit;
 }
 .show-cont-info {
   display: flex;
@@ -241,6 +241,7 @@ FONT SIZE SYSTEM (px)
 }
 .prom-sell-box {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .reco-shows {
@@ -298,4 +299,19 @@ FONT SIZE SYSTEM (px)
 .cat-list {
   list-style: none;
   cursor: pointer;
+}
+
+.prom-sell-box {
+  max-width: 1285px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.why-us-box {
+  max-width: 1285px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reco-shows-box {
+  display: flex;
+  justify-content: center;
 }
